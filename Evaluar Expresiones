@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        // Definir las variables
+        int M = 6;
+        int T = 1;
+        int K = -10;
+
+        // Evaluar las expresiones
+        System.out.println(M > T);  // Evaluación de M > T
+        System.out.println(T / K == -5);  // Evaluación de T / K == -5
+        System.out.println((M + T == 7) || (M - T == 5));  // Evaluación de (M+T == 7) || (M-T == 5)
+    }
+}
