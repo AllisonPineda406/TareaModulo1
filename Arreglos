@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        // Crear un arreglo con nombres de companeros
+        String[] companeros = {"Juan", "Pedro", "Ana", "Carlos", "Lucía", "Maria", "Jose", "Sofia", "David", "Laura"};
+
+        // Imprimir los nombres
+        for (String companero : companeros) {
+            System.out.println(companero);
+        }
+    }
+}
