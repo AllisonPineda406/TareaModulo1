@@ -1,0 +1,6 @@
+public class Main {
+    public static void main(String[] args) {
+        // Imprimir el mensaje
+        System.out.println("Hola, soy Allison Pineda");
+    }
+}
