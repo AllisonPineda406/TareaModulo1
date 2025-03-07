@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+        // Datos de los estudiantes
+        String[] estudiantes = {"Daniel", "Monica"};
+        int[] notas = {65, 89};
+
+        // Iterar sobre los estudiantes y sus notas
+        for (int i = 0; i < estudiantes.length; i++) {
+            // Imprimir el nombre del estudiante
+            System.out.println(estudiantes[i]);
+
+            // Imprimir la nota
+            System.out.println(notas[i]);
+
+            // Imprimir "Aprobado" o "Reprobado" dependiendo de la nota
+            if (notas[i] >= 70) {
+                System.out.println("Aprobado");
+            } else {
+                System.out.println("Reprobado");
+            }
+
+            // Línea en blanco entre los resultados de cada estudiante
+            System.out.println();
+        }
+    }
+}
