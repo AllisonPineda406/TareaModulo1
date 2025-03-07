@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        // Crear arreglo multidimensional con los datos de los compañeros
+        String[][] datosCompaneros = {
+            {"Daniel", "Medina", "Electrónica", "TEST"},
+            {"Monica", "Jiz", "Computación", "IMSA"},
+            {"Carlos", "Ruiz", "Ingeniería Civil", "Constructora ABC"},
+            {"Laura", "García", "Mecatrónica", "Tesla"},
+            {"José", "López", "Software", "Google"}
+        };
+
+        // Imprimir los datos de los compañeros
+        for (int i = 0; i < datosCompaneros.length; i++) {
+            System.out.println("Nombre: " + datosCompaneros[i][0] + ", Apellido: " + datosCompaneros[i][1] + 
+                               ", Carrera: " + datosCompaneros[i][2] + ", Lugar de Trabajo: " + datosCompaneros[i][3]);
+        }
+    }
+}
